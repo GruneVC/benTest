@@ -27,9 +27,9 @@ const HEROES: Hero[] = [
 export class AppComponent {
 
     title = 'Tour of Heroes';
-    hero = HEROES;
+    heroes = HEROES;
 
     constructor() {
-        console.log('test');
+        console.log(this.heroes);
     }
 }
